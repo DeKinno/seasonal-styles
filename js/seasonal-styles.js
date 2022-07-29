@@ -8,36 +8,36 @@ $("document").ready(function(){
         if(season == 'Spring'){
         $("html").css("background-color", "#2B7129");
         $("#wear").attr("src","images/spring-wear.jpg");
-        $("#logo").attr("src","images/spring");
+        $("#logo").attr("src","images/spring.gif");
         $("header h3").text("jump into spring")
     }
 /////////////SUMMER//////////////////////////////
         if(season == 'Summer'){
         $("html").css("background-color", "#EBA52B");
         $("#wear").attr("src","images/summer-wear.jpg");
-        $("#logo").attr("src","images/summer");
+        $("#logo").attr("src","images/summer.gif");
         $("header h3").text("jump into summer")
     }
 //////////////FALL//////////////////////////////////
         if(season == 'Fall'){
         $("html").css("background-color", "#A81124");
         $("#wear").attr("src","images/fall-wear.jpg");
-        $("#logo").attr("src","images/fall");
+        $("#logo").attr("src","images/fall.gif");
         $("header h3").text("jump into fall")
     }
 ///////////////////////WINTER////////////////////////////
     if(season == 'Winter'){
     $("html").css("background-color", "#005393");
     $("#wear").attr("src","images/winter-wear.jpg");
-    $("#logo").attr("src","images/winter");
+    $("#logo").attr("src","images/winter.gif");
     $("header h3").text("jump into winter")
 }
 /////////////////////////DEFUALT/////////////////////
-    if(season == 'Defualt'){
+    if(season == 'Default'){
     $("html").css("background-color", "#000000");
-    $("#wear").attr("scr","images/defualt.jpg")
-    $("#logo").attr("scr","images/four-seasons.gif")
-    $("header h3").text("jump into Defualt")
+    $("#wear").attr("src","images/default-wear.jpg")
+    $("#logo").attr("src","images/four-seasons.gif")
+    $("header h3").text("jump into Default")
     }
     });
 });
